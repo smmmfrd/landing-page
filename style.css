@@ -100,13 +100,22 @@ ul{
 }
 
 .card{
-    width: 150px;
+    width: 256px;
     text-align: center;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4px;
+}
+
+.card-art{
+    height: 256px;
+    width: 256px;
+    border: 2px solid blue;
+    border-radius: 15px;
+
+    background-size: 256px;
 }
 
 /* QUOTE */
