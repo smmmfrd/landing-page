@@ -7,6 +7,7 @@
     --normal_text: #1F2937;
 
     --interactable_blue: #3882F6;
+    --card_border: #A9714B;
 }
 
 *{
@@ -53,6 +54,10 @@ ul{
     color: inherit;
 }
 
+.header ul{
+    gap: 24px;
+}
+
 /* INTRO */
 .introduction{
     background-color: var(--dark_background);
@@ -90,15 +95,9 @@ ul{
     border-radius: 5px;
 }
 
-.intro-image{
-    width: 250px;
-    display: flex;
-    justify-content: flex-start;
-}
-
 /* CARDS */
 .card-section{
-    background-color: var(--light_background);
+    background-color: var(--medium_background);
     color: var(--normal_text);
 
     display: flex;
@@ -132,7 +131,7 @@ ul{
 .card-art{
     height: 256px;
     width: 256px;
-    border: 2px solid var(--interactable_blue);
+    border: 4px solid var(--card_border);
     border-radius: 15px;
 
     background-size: 256px;
