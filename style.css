@@ -1,8 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .body{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    padding: 0;
+    margin: 0;
 }
 
 ul{
@@ -27,6 +33,11 @@ ul{
 
 .header > *{
     margin: 0;
+}
+
+.header a{
+    text-decoration: none;
+    color: inherit;
 }
 
 /* INTRO */
